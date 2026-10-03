@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo-CgUdohNO.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HHS32DRWLX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-HHS32DRWLX');
+    </script>
+    <title>Lapo MFB</title>
+    <script type="module" crossorigin src="/assets/index-B9D_hiM4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B_-qOW7o.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <div id="modal"></div>
+
+    <script>
+        function initFreshChat() {
+            window.fcWidget.init({
+                token: "6ab82eaf-884e-4a32-9e52-5912d0884d4e",
+                host: "https://lapo-help.freshchat.com"
+            });
+        }
+
+        function initialize(i, t) {
+            var e;
+            i.getElementById(t) ?
+                initFreshChat() : ((e = i.createElement("script")).id = t, e.async = !0,
+                    e.src = "https://lapo-help.freshchat.com/js/widget.js", e.onload = initFreshChat, i.head.appendChild(e))
+        }
+
+        function initiateCall() {
+            initialize(document, "Freshchat-js-sdk")
+        }
+        window.addEventListener ? window.addEventListener("load", initiateCall, !1) :
+            window.attachEvent("load", initiateCall, !1);
+    </script>
+</body>
+
+</html>

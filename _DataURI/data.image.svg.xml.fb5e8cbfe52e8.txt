@@ -1,0 +1,1 @@
+data:image/svg+xml,%3csvg%20width='21'%20height='23'%20viewBox='0%200%2021%2023'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M11.486%201.5177L1.48596%2013.5177H10.486L9.48596%2021.5177L19.486%209.5177H10.486L11.486%201.5177Z'%20stroke='%23E78020'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e
